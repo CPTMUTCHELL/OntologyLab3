@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#CircuitBreaker -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#CircuitBreaker">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Faults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common_Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ConnectivityNode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ConnectivityNode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#CurrentTransformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#CurrentTransformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DFZ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DFZ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Line_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Line_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Disconnector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Disconnector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Faults -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Faults"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#GZ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#GZ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K_Coil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K_Coil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TransformerFaults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Line -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Line">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Line_Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Line_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#MTZ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#MTZ">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OverVoltage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OverVoltage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TransformerFaults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TransformerFaults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#PowerTransformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#PowerTransformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Specific -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Specific">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Faults"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TNZNP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TNZNP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Common_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TransformerFaults -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TransformerFaults">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Specific"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageTransformer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageTransformer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#220 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#220">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#500 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#500">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DFZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DFZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DFZ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZL"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZT"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#GZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#GZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#GZ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K_Coil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K_Coil">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#K_Coil"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#MTZ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#MTZ">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#MTZ"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OverVoltage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OverVoltage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OverVoltage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TNZNP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TNZNP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TNZNP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
