@@ -202,7 +202,7 @@
     <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#OilDrop">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Overloading"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#TransformerFaults"/>
     </owl:Class>
     
 
