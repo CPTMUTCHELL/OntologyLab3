@@ -150,6 +150,7 @@
     
 
 
+
     <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZSH -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZSH">
@@ -192,6 +193,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection"/>
     </owl:Class>
     
+
 
 
     <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#IsolationBreach -->
@@ -338,6 +340,15 @@
 
     <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection -->
 
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#VoltageLevel -->
+
     <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Protection"/>
     </owl:Class>
@@ -352,10 +363,17 @@
     
 
 
+
     <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Windings -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Windings">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#PowerTransformer"/>
+
+    <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#ZP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#Transformer_Protection"/>
+
     </owl:Class>
     
 
@@ -417,7 +435,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZSH"/>
     </owl:NamedIndividual>
     
-
 
     <!-- http://www.semanticweb.org/aidar/ontologies/2020/4/untitled-ontology-4#DZT -->
 
